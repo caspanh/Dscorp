@@ -3,26 +3,21 @@
         <ul>
             <li>
                 <i class="fa fa-life-ring fa-fw"></i>
-                <a href="/kanboard.1/?controller=project&amp;action=index" class="" title="">Administración del proyecto</a>
+                <a href="/kanboard.2/?controller=project&amp;action=index" class="" title="">Administración del proyecto</a>
             </li>
         	<li>
                 <i class="fa fa-life-ring fa-fw"></i>
-             	<a href="/kanboard.1/?controller=user&amp;action=index" class="" title="">Gestión de Usuarios</a>
+             	<a href="/kanboard.2/?controller=user&amp;action=index" class="" title="">Gestión de Usuarios</a>
             </li>
 
             <li>
             	<i class="fa fa-life-ring fa-fw"></i>
-            	<a href="/kanboard.1/?controller=app&amp;action=index" class="" title="Tablero"> inicio </a>
+            	<a href="/kanboard.2/?controller=app&amp;action=index" class="" title="Tablero"> inicio </a>
 
-            </li>
-
-            <li>
-                <i class="fa fa-life-ring fa-fw"></i>
-                <a href="/kanboard.1/?controller=project&amp;action=index" class="" title="">Administración del proyecto</a>
             </li>
             <li>
                 <i class="fa fa-life-ring fa-fw"></i>
-                <a href="/kanboard.1/?controller=project&amp;action=index" class="" title="">Administración del proyecto</a>
+                <a href="/kanboard.2/?controller=projectuser&amp;action=managers" class="" title="">Resumen de Usuario</a>
             </li>
 
 

@@ -1,12 +1,13 @@
 <header>
     <nav>
         <h1>
-            <span class="logo">
-                <?= $this->url->link('K<span>B</span>', 'app', 'index', array(), false, '', t('Dashboard')) ?>
+              <span class="logo">
+                <?= $this->url->link('<img src="assets/img/logo11.png"/>', 'app', 'index', array(), false, '', t('Dashboard')) ?>
             </span>
             <span class="title">
                 <?= $this->e($title) ?>
             </span>
+
             <?php if (! empty($description)): ?>
                 <span class="tooltip" title='<?= $this->e($this->text->markdown($description)) ?>'>
                     <i class="fa fa-info-circle"></i>
